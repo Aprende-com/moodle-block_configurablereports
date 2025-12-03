@@ -36,6 +36,8 @@ class report_base {
     public $endtime = 0;
     public $sql = '';
     public $filterform = null;
+    public $config = null;
+    public $currentcourseid = null;
 
     public function reports_base($report) {
         global $DB, $CFG, $USER, $remotedb;
