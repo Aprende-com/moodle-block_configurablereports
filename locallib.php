@@ -39,7 +39,7 @@ function cr_print_js_function() {
             tmpw.document.open();
             tmpw.document.write(\'<html><body>\');
             tmpw.document.write(cdiv.innerHTML);
-            tmpw.document.write(\'</body></html>\');
+            tmpw.document.write(\'</\' + \'body></html>\');
             tmpw.document.close();
 
             setTimeout(function() {
